@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" fill="none">
+  <title>Taxman. Know what you owe. Understand why.</title>
+  <defs>
+    <pattern id="v-p" width="22" height="22" patternUnits="userSpaceOnUse" x="11.0" y="11.0">
+      <circle cx="11.0" cy="11.0" r="1.5" fill="#000000"/>
+    </pattern>
+    <pattern id="v-pa" width="22" height="22" patternUnits="userSpaceOnUse" x="11.0" y="11.0">
+      <circle cx="11.0" cy="11.0" r="1.8" fill="#0066CC"/>
+    </pattern>
+    <radialGradient id="v-fade" cx="770" cy="180" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(770 180) scale(480.0 320.0) translate(-770 -180)">
+      <stop stop-color="#fff" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="v-hot" cx="770" cy="180" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(770 180) scale(300 200) translate(-770 -180)">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".55" stop-color="#fff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="v-glow" cx="770" cy="180" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(770 180) scale(330.0 220.00000000000003) translate(-770 -180)">
+      <stop stop-color="#0066CC" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#0066CC" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="v-mf"><rect width="1000" height="360" fill="url(#v-fade)"/></mask>
+    <mask id="v-mh"><rect width="1000" height="360" fill="url(#v-hot)"/></mask>
+    <clipPath id="bounds"><rect width="1000" height="360" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1000" height="360" fill="#FFFFFF"/>
+    <rect width="1000" height="360" fill="url(#v-glow)"/>
+    <rect width="1000" height="360" fill="url(#v-p)" mask="url(#v-mf)"/>
+    <rect width="1000" height="360" fill="url(#v-pa)" mask="url(#v-mh)"/>
+    <g transform="translate(770 180) scale(.98) translate(-484 -122)">
+    <rect x="260.5" y="40.5" width="175" height="164" rx="12" fill="#FBFBFD" stroke="#000000" stroke-opacity=".09"/>
+    <rect x="280" y="60" width="70" height="9" rx="4.5" fill="#000000" fill-opacity="0.18"/>
+    <rect x="280" y="92" width="54" height="7" rx="3.5" fill="#000000" fill-opacity=".10"/><rect x="386" y="92" width="30" height="7" rx="3.5" fill="#000000" fill-opacity=".10"/>
+    <rect x="280" y="116" width="66" height="7" rx="3.5" fill="#000000" fill-opacity=".10"/><rect x="390" y="116" width="26" height="7" rx="3.5" fill="#000000" fill-opacity=".10"/>
+    <rect x="268" y="133" width="160" height="22" rx="6" fill="#0066CC" fill-opacity=".14"/>
+    <rect x="280" y="140" width="46" height="7" rx="3.5" fill="#0066CC"/><rect x="382" y="140" width="34" height="7" rx="3.5" fill="#0066CC"/>
+    <rect x="280" y="164" width="60" height="7" rx="3.5" fill="#000000" fill-opacity=".10"/><rect x="388" y="164" width="28" height="7" rx="3.5" fill="#000000" fill-opacity=".10"/>
+    <path d="M428 144 C 470 144, 470 104, 512 104" stroke="#0066CC" stroke-width="1.6" stroke-dasharray="3 4"/>
+    <circle cx="428" cy="144" r="3.5" fill="#0066CC"/>
+    <rect x="512.5" y="62.5" width="196" height="90" rx="12" fill="#FBFBFD" stroke="#0066CC" stroke-opacity=".55"/>
+    <rect x="530" y="82" width="120" height="7" rx="3.5" fill="#000000" fill-opacity="0.18"/>
+    <rect x="530" y="100" width="156" height="7" rx="3.5" fill="#000000" fill-opacity=".10"/>
+    <rect x="530" y="116" width="136" height="7" rx="3.5" fill="#000000" fill-opacity=".10"/>
+    <rect x="530" y="130" width="56" height="12" rx="6" fill="#0066CC" fill-opacity=".18"/>
+    <rect x="538" y="134.5" width="40" height="3" rx="1.5" fill="#0066CC"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="359" rx="27.5" stroke="#000000" stroke-opacity=".09"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="54" y="80" font-size="22" letter-spacing="-.2"><tspan fill="#1D1D1F" font-weight="500">Taxman</tspan><tspan fill="#6E6E73">  ·  In development</tspan></text>
+    <text x="52" y="148" fill="#1D1D1F" font-size="46" font-weight="600" letter-spacing="-1.7">Know what you owe.</text>
+    <text x="52" y="198" fill="#1D1D1F" font-size="46" font-weight="600" letter-spacing="-1.7">Understand why.</text>
+    <text x="54" y="252" fill="#6E6E73" font-size="26" letter-spacing="-.3">Free U.S. federal tax prep that shows</text>
+    <text x="54" y="288" fill="#6E6E73" font-size="26" letter-spacing="-.3">its work, with every number traced</text>
+    <text x="54" y="324" fill="#6E6E73" font-size="26" letter-spacing="-.3">to official sources.</text>
+  </g>
+</svg>

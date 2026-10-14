@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360" fill="none">
+  <title>elliottolson.com. My home on the web.</title>
+  <defs>
+    <pattern id="v-p" width="20" height="20" patternUnits="userSpaceOnUse" x="10.0" y="10.0">
+      <circle cx="10.0" cy="10.0" r="1.5" fill="#FFFFFF"/>
+    </pattern>
+    <pattern id="v-pa" width="20" height="20" patternUnits="userSpaceOnUse" x="10.0" y="10.0">
+      <circle cx="10.0" cy="10.0" r="1.8" fill="#7FB2FF"/>
+    </pattern>
+    <radialGradient id="v-fade" cx="790" cy="180" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(790 180) scale(480.0 320.0) translate(-790 -180)">
+      <stop stop-color="#fff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="v-hot" cx="790" cy="180" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(790 180) scale(300 200) translate(-790 -180)">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".55" stop-color="#fff" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="v-glow" cx="790" cy="180" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(790 180) scale(330.0 220.00000000000003) translate(-790 -180)">
+      <stop stop-color="#7FB2FF" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#7FB2FF" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="v-mf"><rect width="1000" height="360" fill="url(#v-fade)"/></mask>
+    <mask id="v-mh"><rect width="1000" height="360" fill="url(#v-hot)"/></mask>
+    <clipPath id="bounds"><rect width="1000" height="360" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1000" height="360" fill="#0b0b0e"/>
+    <rect width="1000" height="360" fill="url(#v-glow)"/>
+    <rect width="1000" height="360" fill="url(#v-p)" mask="url(#v-mf)"/>
+    <rect width="1000" height="360" fill="url(#v-pa)" mask="url(#v-mh)"/>
+    <g transform="translate(780 180) scale(1.12) translate(-229 -137)">
+    <rect x="64.5" y="44.5" width="330" height="186" rx="14" fill="#050506" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <circle cx="86" cy="66" r="4.5" fill="#FFFFFF" fill-opacity=".14"/><circle cx="101" cy="66" r="4.5" fill="#FFFFFF" fill-opacity=".14"/><circle cx="116" cy="66" r="4.5" fill="#FFFFFF" fill-opacity=".14"/>
+    <rect x="160" y="60" width="140" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.10"/>
+    <path d="M65 86.5 H394" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <rect x="88" y="112" width="60" height="6" rx="3" fill="#FFFFFF" fill-opacity=".14"/>
+    <rect x="88" y="128" width="200" height="20" rx="6" fill="#F5F5F7" fill-opacity=".85"/>
+    <rect x="88" y="154" width="140" height="20" rx="6" fill="#F5F5F7" fill-opacity=".85"/>
+    <rect x="88" y="186" width="56" height="18" rx="9" fill="#F5F5F7" fill-opacity=".85"/>
+    <rect x="154" y="192" width="44" height="6" rx="3" fill="#7FB2FF"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="359" rx="27.5" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="54" y="80" font-size="22" letter-spacing="-.2"><tspan fill="#F5F5F7" font-weight="500">elliottolson.com</tspan><tspan fill="#8E8E96">  ·  Live</tspan></text>
+    <text x="52" y="148" fill="#F5F5F7" font-size="46" font-weight="600" letter-spacing="-1.7">My home</text>
+    <text x="52" y="198" fill="#F5F5F7" font-size="46" font-weight="600" letter-spacing="-1.7">on the web.</text>
+    <text x="54" y="252" fill="#8E8E96" font-size="26" letter-spacing="-.3">Handwritten HTML, CSS and JavaScript,</text>
+    <text x="54" y="288" fill="#8E8E96" font-size="26" letter-spacing="-.3">with a small Python build and a live</text>
+    <text x="54" y="324" fill="#8E8E96" font-size="26" letter-spacing="-.3">status page.</text>
+  </g>
+</svg>
