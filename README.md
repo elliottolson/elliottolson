@@ -1,10 +1,22 @@
-# Hi, I'm Elliott
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
+  <img src="assets/header-light.svg" alt="Elliott Olson — Apps, tools, and experiments." width="1000">
+</picture>
 
-I'm a Senior Machine Learning Engineer at Amazon, based in Bellevue, WA. Outside of work, I build apps, tools, and experiments that interest me.
+I build things that interest me. Here you'll find personal projects, useful little tools, and ideas taking shape.
 
-Currently building:
+[Website ↗](https://elliottolson.com) · [Browse projects](https://github.com/elliottolson?tab=repositories)
 
-- [Taxman](https://github.com/elliottolson/taxman) — an early-stage project for free U.S. federal tax preparation, with transparent calculations and source-backed explanations.
-- [My website](https://elliottolson.com) — my home on the web. [Source](https://github.com/elliottolson/elliottolson.com).
+---
 
-You can also explore my older projects, including [BowSpleef](https://github.com/elliottolson/bowspleef), a Minecraft minigame.
+### Selected projects
+
+**[Taxman](https://github.com/elliottolson/taxman)** · *In development*<br>
+Making taxes easier to understand, with transparent calculations and explanations grounded in official sources. An offline federal tax calculation prototype is the first step.
+
+**[elliottolson.com](https://elliottolson.com)** · [Source](https://github.com/elliottolson/elliottolson.com)<br>
+My home on the web. Handwritten HTML, CSS, and JavaScript, with a small Python publishing system.
+
+**[BowSpleef](https://github.com/elliottolson/bowspleef)** · *Earlier work*<br>
+A Minecraft minigame built for Bukkit. A look back at some of my early Java projects.
